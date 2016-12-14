@@ -1,0 +1,44 @@
+/*
+main.css
+MAD9013 Bootstrap Final
+Eric Lachapelle (040756723)
+*/
+
+body {
+    background-color: #82C764;
+}
+
+.card, .jumbotron, .list-group-item {
+    background-color: #D0FFF7;
+}
+
+.iconic:hover{
+    color: #82C764;
+}
+
+form {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+form h4 {
+    margin-bottom: 15px;
+}
+
+#map img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h4{
+    font-family: 'Bitter', Georgia, Palatino, serif;
+}
+
+body {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}

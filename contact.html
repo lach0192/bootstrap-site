@@ -1,0 +1,108 @@
+<!--
+contact.html
+MAD9013 Bootstrap Final
+Eric Lachapelle (040756723)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>G.W. Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/iconic-bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:700|Raleway:800" rel="stylesheet">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="display-5">Global <span style="color:#EB651E;">WARNING</span></h1>
+        <nav class="navbar navbar-dark bg-primary"> 
+           
+            <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"></button>
+            
+            <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+           
+                <a class="navbar-brand" href="index.html">G.W.</a>
+
+                <ul class="nav navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a> 
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="help.html">How To Help</a></li>
+                    <li class="nav-item active"> 
+                        <a class="nav-link" href="contact.html">Contact Us
+                            <span class="sr-only">(current)</span>
+                        </a> 
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <div class="card">
+        <form>
+            <h4>Send us a message!</h4>
+            
+            <fieldset class="form-group">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter your name here">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address here"> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Enter your message here"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Send</button>
+            </fieldset>
+        </form>
+        </div>
+    
+        <div id="map"> 
+           
+            <div class="card">
+            <img class="card-img-top" src="http://maps.googleapis.com/maps/api/staticmap?center=barrhaven&zoom=15&scale=false&size=300x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7Cbarrhaven" alt="Google Map of our Barrhaven location">
+                <div class="card-block">
+                    <h4 class="card-title">Visit us in person!</h4>
+                    <p class="card-text">777 Wessex Road, Nepean ON</p>
+                    <a href="https://www.google.ca/maps/place/Wessex+Rd,+Nepean,+ON/@45.2740729,-75.7537238,17z/data=!3m1!4b1!4m5!3m4!1s0x4ccdfce174e94a19:0x4c18776304aaec8b!8m2!3d45.2740729!4d-75.7515351" class="btn btn-primary" target="_blank">Directions</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card">
+            <footer class="footer">
+                <nav class="nav nav-inline">
+                    <p>&nbsp;&copy; Copyright 2016 Eric Lachapelle</p>
+                    <li class="nav-item"> <a class="nav-link" href="https://facebook.com" target="_blank">
+                        <span class="iconic iconic-sm iconic-social-facebook" title="social facebook" aria-hidden="true"></span>
+                    </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://twitter.com" target="_blank">
+                        <span class="iconic iconic-sm iconic-social-twitter" title="social twitter" aria-hidden="true"></span>
+                    </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://instagram.com" target="_blank">
+                        <span class="iconic iconic-sm iconic-social-instagram" title="social instagram" aria-hidden="true"></span>
+                    </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="https://linkedin.com" target="_blank">
+                        <span class="iconic iconic-sm iconic-social-linkedin" title="social linkedin" aria-hidden="true"></span>
+                    </a> </li>
+                </nav>
+            </footer>
+        </div>
+    
+       </div>
+</body>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bootstrap.native/1.0.4/bootstrap-native.js"></script>
+
+</html>
